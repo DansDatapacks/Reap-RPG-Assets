@@ -1,0 +1,23 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/firework_star",
+        "layer1": "item/firework_star_overlay"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4150000}, "model": "reap:artifact/aetherian_feather"},
+        { "predicate": { "custom_model_data": 4150001}, "model": "reap:artifact/aetherian_ward"},
+        { "predicate": { "custom_model_data": 4150002}, "model": "reap:artifact/cloud_bottle"},
+        { "predicate": { "custom_model_data": 4150003}, "model": "reap:artifact/elders_eye"},
+        { "predicate": { "custom_model_data": 4150004}, "model": "reap:artifact/fairy_bottle"},
+        { "predicate": { "custom_model_data": 4150005}, "model": "reap:artifact/fairy_dust"},
+        { "predicate": { "custom_model_data": 4150006}, "model": "reap:artifact/goblin_fae"},
+        { "predicate": { "custom_model_data": 4150007}, "model": "reap:artifact/lucky_bell"},
+        { "predicate": { "custom_model_data": 4150008}, "model": "reap:artifact/shell_charm"},
+        { "predicate": { "custom_model_data": 4150009}, "model": "reap:artifact/obsidian_arrowhead_pendant"},
+        { "predicate": { "custom_model_data": 4150010}, "model": "reap:artifact/obsidian_skull"},
+        { "predicate": { "custom_model_data": 4150011}, "model": "reap:artifact/turtle_shell"},
+
+        { "predicate": { "custom_model_data": 4151000}, "model": "reap:backpack/backpack"}
+	]
+}

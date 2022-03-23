@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/chicken"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4150001}, "model": "reap:food/cooked_chicken_egg"}
+	]
+}

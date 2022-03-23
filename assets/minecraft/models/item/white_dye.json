@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/white_dye"
+    },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 4150101}, "model": "reap:fauna/butterfly/pink/pink_butterfly_1" },
+		{ "predicate": { "custom_model_data": 4150102}, "model": "reap:fauna/butterfly/pink/pink_butterfly_2" },
+		{ "predicate": { "custom_model_data": 4150103}, "model": "reap:fauna/butterfly/pink/pink_butterfly_3" },
+		{ "predicate": { "custom_model_data": 4150104}, "model": "reap:fauna/butterfly/pink/pink_butterfly_4" },
+		{ "predicate": { "custom_model_data": 4150105}, "model": "reap:fauna/butterfly/pink/pink_butterfly_5" },
+
+		{ "predicate": { "custom_model_data": 4150201}, "model": "reap:fauna/frog/tree_frog/tree_frog_idle" },
+		{ "predicate": { "custom_model_data": 4150202}, "model": "reap:fauna/frog/tree_frog/tree_frog_jumping" }
+	]
+}

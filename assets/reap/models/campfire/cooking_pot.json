@@ -1,0 +1,119 @@
+{
+	"__comment": "Modeled/Designed- DanMizu",
+	"parent": "block/block",
+	"textures": {
+		"log": "block/oak_log",
+		"log_top": "block/oak_log_top",
+		"pot_inside": "block/cauldron_inner",
+		"pot_side": "block/cauldron_side"
+	},
+	"elements": [
+		{
+			"__comment": "Log1",
+			"from": [ -2.625, 0.75, 1.625 ],
+			"to": [ 21.375, 3.75, 4.625 ],
+			"rotation": { "origin": [ -2.625, 0.75, 1.625 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 1, 11, 16, 13 ], "texture": "#log" },
+				"up": { "uv": [ 1, 11, 16, 13 ], "texture": "#log" },
+				"north": { "uv": [ 0, 14, 15, 16 ], "texture": "#log" },
+				"south": { "uv": [ 1, 14, 16, 16 ], "texture": "#log" },
+				"west": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top" },
+				"east": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top" }
+			}
+		},
+		{
+			"__comment": "Log2",
+			"from": [ 1.8744, 1.3125, -5.875 ],
+			"to": [ 4.8744, 4.3125, 18.125 ],
+			"rotation": { "origin": [ 1.875, 1.3125, 18.125 ], "axis": "y", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 1, 5, 16, 7 ], "texture": "#log", "rotation": 90 },
+				"up": { "uv": [ 1, 11, 16, 13 ], "texture": "#log", "rotation": 270 },
+				"north": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top" },
+				"south": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top" },
+				"west": { "uv": [ 0, 6.5, 15, 8.5 ], "texture": "#log" },
+				"east": { "uv": [ 0, 7.5, 15, 9.5 ], "texture": "#log" }
+			}
+		},
+		{
+			"__comment": "Log3",
+			"from": [ -3.375, 0, 11.375 ],
+			"to": [ 20.625, 3, 14.375 ],
+			"rotation": { "origin": [ -3.375, 0, 11.375 ], "axis": "y", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 7, 16, 9 ], "texture": "#log", "cullface": "east" },
+				"up": { "uv": [ 0, 7, 16, 9 ], "texture": "#log", "cullface": "east" },
+				"north": { "uv": [ 0.5, 14, 0.5, 16 ], "texture": "#log", "cullface": "east" },
+				"south": { "uv": [ 0.5, 14, 16, 16 ], "texture": "#log", "cullface": "east" },
+				"west": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top", "cullface": "east" },
+				"east": { "uv": [ 5, 5, 11, 11 ], "texture": "#log_top", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "Cauldron1",
+			"from": [ 0, 4, 0 ],
+			"to": [ 16, 5, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#pot_side" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#pot_inside" },
+				"north": { "uv": [ 0, 11, 16, 12 ], "texture": "#pot_side" },
+				"south": { "uv": [ 0, 11, 16, 12 ], "texture": "#pot_side" },
+				"west": { "uv": [ 0, 11, 16, 12 ], "texture": "#pot_side" },
+				"east": { "uv": [ 0, 11, 16, 12 ], "texture": "#pot_side" }
+			}
+		},
+		{
+			"__comment": "Cauldron2",
+			"from": [ 0, 5, -1 ],
+			"to": [ 16, 14, 0 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 1 ], "texture": "#pot_side" },
+				"up": { "uv": [ 0, 15, 16, 16 ], "texture": "#pot_side" },
+				"north": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"south": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"west": { "uv": [ 15, 2, 16, 11 ], "texture": "#pot_side" },
+				"east": { "uv": [ 0, 2, 1, 11 ], "texture": "#pot_side" }
+			}
+		},
+		{
+			"__comment": "Cauldron3",
+			"from": [ -1, 5, 0 ],
+			"to": [ 0, 14, 16 ],
+			"faces": {
+				"down": { "uv": [ 15, 0, 16, 16 ], "texture": "#pot_side" },
+				"up": { "uv": [ 15, 0, 16, 16 ], "texture": "#pot_side" },
+				"north": { "uv": [ 0, 2, 1, 11 ], "texture": "#pot_inside" },
+				"south": { "uv": [ 15, 2, 16, 11 ], "texture": "#pot_side" },
+				"west": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"east": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" }
+			}
+		},
+		{
+			"__comment": "Cauldron4",
+			"from": [ 16, 5, 0 ],
+			"to": [ 17, 14, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 1, 16 ], "texture": "#pot_side" },
+				"up": { "uv": [ 0, 0, 1, 16 ], "texture": "#pot_side" },
+				"north": { "uv": [ 15, 2, 16, 11 ], "texture": "#pot_side" },
+				"south": { "uv": [ 0, 2, 1, 11 ], "texture": "#pot_side" },
+				"west": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"east": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" }
+			}
+		},
+		{
+			"__comment": "Cauldron5",
+			"from": [ 0, 5, 16 ],
+			"to": [ 16, 14, 17 ],
+			"faces": {
+				"down": { "uv": [ 0, 15, 16, 16 ], "texture": "#pot_side" },
+				"up": { "uv": [ 0, 0, 16, 1 ], "texture": "#pot_side" },
+				"north": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"south": { "uv": [ 0, 2, 16, 11 ], "texture": "#pot_side" },
+				"west": { "uv": [ 0, 2, 1, 11 ], "texture": "#pot_side" },
+				"east": { "uv": [ 15, 2, 16, 11 ], "texture": "#pot_side" }
+			}
+		}
+	]
+}

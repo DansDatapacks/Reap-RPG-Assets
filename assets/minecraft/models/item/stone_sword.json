@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_sword"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4150100}, "model": "reap:broadsword/copper_broadsword"},
+		{ "predicate": { "custom_model_data": 4150101}, "model": "reap:shortsword/copper_shortsword"},
+		{ "predicate": { "custom_model_data": 4150102}, "model": "reap:longsword/copper_longsword"},
+		{ "predicate": { "custom_model_data": 4150200}, "model": "reap:broadsword/prismarine_broadsword"},
+		{ "predicate": { "custom_model_data": 4150201}, "model": "reap:shortsword/prismarine_shortsword"},
+		{ "predicate": { "custom_model_data": 4150202}, "model": "reap:longsword/prismarine_longsword"}
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/chorus_fruit"
+    },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 4150001}, "model": "reap:voat/chorus_dragonfruit"},
+			{ "predicate": { "custom_model_data": 4150002}, "model": "reap:voat/chorus_mango"},
+			{ "predicate": { "custom_model_data": 4150003}, "model": "reap:voat/chorus_pear"},
+			{ "predicate": { "custom_model_data": 4150004}, "model": "reap:voat/chorus_plum"},
+			{ "predicate": { "custom_model_data": 4150005}, "model": "reap:voat/chorus_apple"},
+			{ "predicate": { "custom_model_data": 4150006}, "model": "reap:voat/chorus_sweet_berries"}
+	]
+}

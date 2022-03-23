@@ -1,0 +1,17 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/barrier"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4151000}, "model": "reap:mob/queen_bee/queen_bee_1"},
+        { "predicate": { "custom_model_data": 4151001}, "model": "reap:mob/queen_bee/queen_bee_2"},
+        { "predicate": { "custom_model_data": 4151002}, "model": "reap:mob/queen_bee/queen_bee_3"},
+        { "predicate": { "custom_model_data": 4151003}, "model": "reap:mob/queen_bee/queen_bee_4"},
+        { "predicate": { "custom_model_data": 4151004}, "model": "reap:mob/queen_bee/queen_bee_5"},
+        { "predicate": { "custom_model_data": 4151005}, "model": "reap:mob/queen_bee/queen_bee_6"},
+        { "predicate": { "custom_model_data": 4151006}, "model": "reap:mob/queen_bee/queen_bee_7"},
+        { "predicate": { "custom_model_data": 4151007}, "model": "reap:mob/queen_bee/queen_bee_8"},
+        { "predicate": { "custom_model_data": 4151008}, "model": "reap:mob/queen_bee/queen_bee_hurt"}
+	]
+}

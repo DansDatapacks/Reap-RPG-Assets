@@ -1,0 +1,10 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_hoe"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4150001}, "model": "reap:campfire/log_stack"},
+		{ "predicate": { "custom_model_data": 4150002}, "model": "reap:campfire/cooking_pot"}
+	]
+}

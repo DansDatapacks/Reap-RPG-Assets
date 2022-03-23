@@ -1,0 +1,87 @@
+{
+	"__comment": "Modeled & Textured by DanMizu",
+	"textures": {
+		"particle": "block/pink_concrete_powder",
+		"texture": "reap:fauna/butterfly/pink_butterfly"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "abdomen",
+			"from": [ 7.500177, 7.500118, 5.499629 ],
+			"to": [ 8.500177, 8.500118, 9.999628 ],
+			"faces": {
+				"down": { "uv": [ 5.99, 0.99, 5.01, 0.00999999 ], "texture": "#texture" },
+				"up": { "uv": [ 5.01, 2.01, 5.99, 2.99 ], "texture": "#texture" },
+				"north": { "uv": [ 0.99, 4.99, 0.00999999, 0.01000023 ], "texture": "#texture" },
+				"south": { "uv": [ 1.01, 0.01, 1.99, 4.99 ], "texture": "#texture" },
+				"west": { "uv": [ 2.99, 0.01, 2.01, 4.99 ], "texture": "#texture" },
+				"east": { "uv": [ 3.01, 4.99, 3.99, 0.01000023 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Upper WingR",
+			"from": [ 7.999354, 7.700284, 6.000431 ],
+			"to": [ 10.99935, 7.701284, 8.000431 ],
+			"rotation": { "origin": [ 8, 7.7, 6 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 6.01, 9.99, 11.99, 6.01 ], "texture": "#texture" },
+				"up": { "uv": [ 6.01, 6.01, 11.99, 9.99 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Upper WingL",
+			"from": [ 5.214504, 7.722313, 6.000664 ],
+			"to": [ 8.214504, 7.723313, 8.000664 ],
+			"rotation": { "origin": [ 8.1, 8, 10 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 5.99, 6.01, 0.01000023, 9.99 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 5.99, 9.99, 0.01000023, 6.01 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Lower WingL",
+			"from": [ 5.534905, 7.857702, 7.999941 ],
+			"to": [ 7.534905, 7.858702, 9.999941 ],
+			"rotation": { "origin": [ 8.1, 8, 10 ], "axis": "z", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 5.99, 10.01, 2.01, 13.99 ], "texture": "#texture", "rotation": 180 },
+				"up": { "uv": [ 5.99, 13.99, 2.01, 10.01 ], "texture": "#texture", "rotation": 180 }
+			}
+		},
+		{
+			"__comment": "Lower WingR",
+			"from": [ 8.679577, 7.835882, 7.999947 ],
+			"to": [ 10.67958, 7.836882, 9.999947 ],
+			"rotation": { "origin": [ 8, 7.7, 6 ], "axis": "z", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 6.01, 13.99, 9.99, 10.01 ], "texture": "#texture" },
+				"up": { "uv": [ 6.01, 10.01, 9.99, 13.99 ], "texture": "#texture" }
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"rotation":  [ 60, 0, 10 ],
+			"translation":  [ 0, 2.6, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 60, 0, 10 ],
+			"translation":  [ 0, 2.6, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"gui": {
+			"rotation":  [ 90, 11, -31 ],
+			"translation":  [ 0, -0.3, 0 ],
+			"scale":  [ 2, 2, 2 ]
+		},
+		"head": {
+			"scale":  [ 2, 2, 2 ]
+		},
+		"fixed": {
+			"rotation":  [ 90, 0, 180 ],
+			"scale":  [ 2, 2, 2 ]
+		}
+	}
+}

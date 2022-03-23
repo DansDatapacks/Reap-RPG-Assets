@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/sweet_berries"
+    },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 4150001}, "model": "reap:voat/blackberries"},
+			{ "predicate": { "custom_model_data": 4150002}, "model": "reap:voat/blueberries"},
+			{ "predicate": { "custom_model_data": 4150003}, "model": "reap:voat/elderberries"},
+			{ "predicate": { "custom_model_data": 4150004}, "model": "reap:voat/raspberries"},
+			{ "predicate": { "custom_model_data": 4150005}, "model": "reap:voat/strawberry"}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_axe"
+    },
+	"overrides": [
+        { "predicate": { "custom_model_data": 4150001}, "model": "reap:waraxe/iron_waraxe"},
+		{ "predicate": { "custom_model_data": 4150002}, "model": "reap:battleaxe/iron_battleaxe"},
+		{ "predicate": { "custom_model_data": 4150101}, "model": "reap:waraxe/emeraldite_waraxe"},
+		{ "predicate": { "custom_model_data": 4150102}, "model": "reap:battleaxe/emeraldite_battleaxe"},
+		{ "predicate": { "custom_model_data": 4150201}, "model": "reap:waraxe/bronze_waraxe"},
+		{ "predicate": { "custom_model_data": 4150202}, "model": "reap:battleaxe/bronze_battleaxe"},
+		{ "predicate": { "custom_model_data": 4150301}, "model": "reap:waraxe/steel_waraxe"},
+		{ "predicate": { "custom_model_data": 4150302}, "model": "reap:battleaxe/steel_battleaxe"}
+	]
+}

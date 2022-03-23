@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/diamond_sword"
+    },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 4150100}, "model": "reap:broadsword/frostmetal_broadsword"},
+		{ "predicate": { "custom_model_data": 4150101}, "model": "reap:shortsword/frostmetal_shortsword"},
+		{ "predicate": { "custom_model_data": 4150102}, "model": "reap:longsword/frostmetal_longsword"},
+		{ "predicate": { "custom_model_data": 4150200}, "model": "reap:broadsword/silver_broadsword"},
+		{ "predicate": { "custom_model_data": 4150201}, "model": "reap:shortsword/silver_shortsword"},
+		{ "predicate": { "custom_model_data": 4150202}, "model": "reap:longsword/silver_longsword"},
+        { "predicate": { "custom_model_data": 4150300}, "model": "reap:broadsword/obsidian_broadsword"},
+		{ "predicate": { "custom_model_data": 4150301}, "model": "reap:shortsword/obsidian_shortsword"},
+		{ "predicate": { "custom_model_data": 4150302}, "model": "reap:longsword/obsidian_longsword"}
+	]
+}

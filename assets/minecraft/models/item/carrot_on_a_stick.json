@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+	"overrides": [
+			{ "predicate": { "custom_model_data": 4150001}, "model": "reap:artifact/enchiridion"},
+			{ "predicate": { "custom_model_data": 4150002}, "model": "reap:artifact/ancient_waystone"},
+			{ "predicate": { "custom_model_data": 4150003}, "model": "reap:artifact/waystone"},
+			{ "predicate": { "custom_model_data": 4150100}, "model": "reap:tome/tome"},
+			{ "predicate": { "custom_model_data": 4150200}, "model": "reap:wand/fire_wand"},
+			{ "predicate": { "custom_model_data": 4150201}, "model": "reap:wand/ice_wand"},
+			{ "predicate": { "custom_model_data": 4150202}, "model": "reap:wand/poison_wand"},
+			{ "predicate": { "custom_model_data": 4150203}, "model": "reap:wand/evoker_wand"},
+			{ "predicate": { "custom_model_data": 4150204}, "model": "reap:wand/tornado_wand"},
+
+			{ "predicate": { "custom_model_data": 4150300}, "model": "reap:staff/meteor_staff"},
+
+			{ "predicate": { "custom_model_data": 4151000}, "model": "reap:artifact/ender_ring"}
+	]
+}
